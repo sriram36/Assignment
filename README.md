@@ -50,9 +50,9 @@ A full-stack application built with the MERN stack (MongoDB, Express.js, React.j
    npm run dev
    ```
 
-## *Admin Setup*
+### Admin Setup
 
-### *1. Create Admin Account*
+Create Admin Account
 Run the following command to seed an admin user:
    ```bash
    node backend/seedAdmin.js
