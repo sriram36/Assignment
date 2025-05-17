@@ -1,0 +1,16 @@
+{
+  "name": "task-management-system",
+  "version": "1.0.0",
+  "description": "MERN Stack Task Management System",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "setup": "npm run install-all && cd backend && node -e \"require('./routes/auth').setup()\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+} 
